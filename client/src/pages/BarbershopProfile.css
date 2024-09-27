@@ -1,0 +1,101 @@
+.barbershop-profile {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.barbershop-header {
+  text-align: center;
+}
+
+.barbershop-image {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.barbershop-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.barbershop-rating{
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.barbershop-address, .barbershop-phone {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.barbershop-details {
+  margin-top: 30px;
+}
+
+.barbershop-details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.barbershop-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.barbershop-nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.barbershop-nav a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.barbershop-nav a.active-link {
+  background-color: #f0c14b;
+  color: #fff;
+}
+.star-rating {
+  display: flex;
+  justify-content: center; /* Centre horizontalement les étoiles */
+  align-items: center; /* Aligne verticalement les étoiles (utile si le conteneur a une hauteur définie) */
+  margin: 10px 0; /* Ajoute un peu d'espace au-dessus et en dessous */
+}
+
+.star {
+  font-size: 24px; /* Taille des étoiles */
+  color: #ddd; /* Couleur des étoiles non remplies */
+  margin: 0 5px; /* Espacement entre les étoiles */
+}
+
+.star.filled {
+  color: #f5a623; /* Couleur des étoiles remplies */
+}
+.label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.add-rating-button {
+  margin-top: 20px;
+  margin-left: 350px;
+  padding: 10px 20px;
+  background-color: #99C0FC;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:200px;
+}
+
+.add-rating-button:hover {
+  background-color: #007bff;
+  color: white;
+}

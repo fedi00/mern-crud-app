@@ -1,0 +1,85 @@
+/* Style global pour le conteneur */
+.edit-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titre de la page */
+  .edit-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style pour le formulaire */
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style pour les groupes de formulaire */
+  .edit-form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour les labels */
+  .edit-form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+  }
+  
+  /* Style pour les champs de formulaire */
+  .edit-input,
+  .edit-textarea,
+  .edit-file-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  /* Style pour le champ de texte */
+  .edit-textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  /* Style pour le bouton de soumission */
+  .edit-submit-btn {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style pour le bouton au survol */
+  .edit-submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style pour l'aperçu de l'image */
+  .edit-image-preview {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .edit-image-preview img {
+    max-width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

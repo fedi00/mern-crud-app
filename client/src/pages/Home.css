@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .home-container {
+    display: flex;
+    height: 100vh; /* Utilise 100% de la hauteur de la fenêtre */
+    overflow: hidden;
+  }
+  
+  .home-description {
+    flex: 1;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre le contenu verticalement */
+    background-color: #f4f4f4; /* Ajoutez une couleur de fond si souhaité */
+    margin-top: -150px;
+  }
+  
+  .home-description h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .home-description p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .home-image {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    background-color: #F4F4F4;
+
+  }
+  
+  .home-image img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    clip-path: ellipse(100% 90% at 100% 45%); /* Clipping path to make the left side elliptical */
+        object-fit: cover;
+  }
+  
+.cta-button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #99C0FC; /* Attractive color */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #B9E2D2; /* Darker shade for hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }

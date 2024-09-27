@@ -15,7 +15,7 @@ required: true
 },
 role: {
 type: String,
-enum: ['client', 'admin'],
+enum: ['client', 'owner'],
 default: 'client'
 }
 });

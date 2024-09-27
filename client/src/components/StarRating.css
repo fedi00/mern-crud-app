@@ -1,0 +1,17 @@
+/* src/components/StarRating.css */
+.star-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    font-size: 28px; /* Taille des étoiles */
+    color: #ccc; /* Couleur des étoiles non remplies */
+    transition: color 0.3s, transform 0.3s; /* Transition pour les effets de couleur et de transformation */
+  }
+  
+  .star.filled {
+    color: #ffcc00; /* Couleur des étoiles remplies (jaune) */
+    transform: scale(1.3); /* Agrandissement des étoiles remplies */
+  }
+  

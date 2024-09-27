@@ -1,0 +1,105 @@
+/* AdminServices.css */
+
+.admin-services {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .service-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .service-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .service-details {
+    flex: 1;
+  }
+  
+  .service-name {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+  }
+  
+  .service-description,
+  .service-price {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .service-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .add-btn {
+    background-color: #008CBA;
+    color: white;
+    margin-bottom: 20px;
+    width:200px;
+  }
+  
+  .edit-btn:hover,
+  .delete-btn:hover,
+  .add-btn:hover {
+    opacity: 0.8;
+  }
+  .barbershop-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .barbershop-nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .barbershop-nav a.active-link {
+    background-color: #f0c14b;
+    color: #fff;
+  }

@@ -1,0 +1,93 @@
+/* src/pages/AdminRatings.css */
+.admin-ratings-page {
+    padding: 20px;
+    text-align: center; /* Centrer le texte et les éléments dans la page */
+  }
+  
+  .average-rating {
+    margin-bottom: 20px;
+  }
+  
+  .average-rating h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .average-rating-stars {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espace entre les étoiles et la valeur */
+    font-size: 1.2em; /* Taille des étoiles et de la valeur */
+  }
+  
+  .average-rating-value {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .ratings-list {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .ratings-list h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: left; /* Assurez-vous que le texte du titre est aligné à gauche */
+  }
+  
+  .ratings-table-container {
+    margin-top: 20px;
+  }
+  
+  .ratings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centrer le tableau */
+  }
+  
+  .ratings-table th, .ratings-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .ratings-table th {
+    background-color: #f4f4f4;
+  }
+  .barbershop-nav {
+    display: flex;
+    justify-content: center; /* Centrer les boutons horizontalement */
+    gap: 20px; /* Espacement entre les boutons */
+    margin-bottom: 40px;
+    padding: 10px 0; /* Ajouter un peu de padding en haut et en bas */
+    background-color: #F4F4F4; /* Couleur de fond pour la barre de navigation */
+    border-radius: 8px; /* Coins arrondis pour la barre de navigation */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet de profondeur */
+  }
+  
+  .barbershop-nav a {
+    padding: 10px 20px; /* Padding interne pour les boutons */
+    text-decoration: none; /* Supprimer la ligne de soulignement */
+    color: #FFF; /* Couleur du texte des boutons */
+    font-size: 16px; /* Taille du texte */
+    font-weight: 500; /* Légèrement en gras */
+    border: 1px solid #007bff; /* Bordure autour des boutons */
+    border-radius: 5px; /* Coins arrondis pour les boutons */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Effet de transition pour les interactions */
+    background-color: #99C0FC;
+  }
+  
+  .barbershop-nav a:hover {
+    background-color: #007bff; /* Changer la couleur de fond au survol */
+    color: #ffffff; /* Changer la couleur du texte au survol */
+    transform: translateY(-3px); /* Légère élévation lors du survol */
+  }
+  
+  .barbershop-nav .active-link {
+    background-color: #007bff; /* Couleur de fond pour le bouton actif */
+    color: #ffffff; /* Couleur du texte pour le bouton actif */
+    border-color: #0056b3; /* Couleur de la bordure pour le bouton actif */
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2); /* Ombre accentuée pour le bouton actif */
+  }

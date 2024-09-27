@@ -1,0 +1,76 @@
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .rating-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .rating-container .rating-stars {
+    margin-bottom: 20px;
+    margin-left: 500px;
+  }
+  
+  .rating-container button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 8px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    margin-bottom: 50px;
+    margin-top: 800px;
+  }
+  
+  .rating-container button:hover {
+    background-color: #e5c600;
+  }
+  
+  .rating-container p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: green;
+  }
+  
+  @media (max-width: 768px) {
+    .rating-container {
+      padding: 0 20px;
+    }
+  
+    .rating-container h2 {
+      font-size: 20px;
+    }
+  
+    .rating-container button {
+      font-size: 16px;
+      padding: 10px 20px;
+      width:200px;
+    }
+  }
+  .barbershop-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .barbershop-nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .barbershop-nav a.active-link {
+    background-color: #f0c14b;
+    color: #fff;
+  }

@@ -1,0 +1,78 @@
+/* Navbar.css */
+
+/* Style pour le bouton Logout */
+.navbar-logout {
+  color: #333; /* Couleur du texte pour le bouton Logout */
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent; /* Fond transparent pour le bouton Logout */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-logout:hover {
+  background-color: #f2dede; /* Couleur de survol légèrement plus sombre pour le bouton Logout */
+  color: #d9534f; /* Couleur du texte au survol */
+}
+
+/* Assurez-vous que les autres styles ne sont pas affectés */
+.navbar {
+  background-color: #ffff; /* Blanc cassé */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Ombre noire plus prononcée */
+  margin-bottom: 5px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.navbar-logo .navbar-brand {
+  font-size: 24px;
+  color: #333; /* Couleur sombre pour contraster avec le fond clair */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 60px;
+}
+
+.navbar-link {
+  color: #333; /* Couleur sombre pour contraster avec le fond clair */
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-link:hover {
+  background-color: #e0e0e0; /* Couleur de survol légèrement plus sombre */
+  color: #333;
+}
+
+.logo-image {
+  height: 90px; /* Ajustez la hauteur selon vos besoins */
+  width: 90px;
+  margin-left: 0px;
+  margin-bottom: -30px;
+  margin-top: -10px;
+}

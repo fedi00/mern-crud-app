@@ -1,0 +1,50 @@
+/* src/styles/BarbershopList.css */
+.barbershop-list {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .barbershop-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .barbershop-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .barbershop-image3 {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .reservations-button {
+    background-color: #99C0FC; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en forme de main */
+    margin-top: 10px; /* Espacement supérieur */
+    transition: background-color 0.3s; /* Transition de la couleur de fond */
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .reservations-button:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+  }
+  
